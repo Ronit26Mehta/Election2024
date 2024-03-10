@@ -77,5 +77,75 @@ Empower independent parties, such as election observers or auditing agencies, to
 3. Once the user has cast his vote the button would disabled by itself as such and after that he would be given a pop up to see the results as soon as the results are
   declared as such and this would ensure him to get the notification whenever the result are declared and provided to him at earliest.
 ![WhatsApp Image 2024-03-10 at 07 16 37_37fbbb04](https://github.com/jinit07/Election2024/assets/109467924/d127af30-b9e5-4f81-aca6-74339ceafdd2)
+## Setting up the development environment
+
+### Requirements
+
+- [Node.js](https://nodejs.org)
+- [Truffle](https://www.trufflesuite.com/truffle)
+- [Ganache](https://github.com/trufflesuite/ganache-cli) (Cli)
+- [Metamask](https://metamask.io/) (Browser Extension)
+
+#### Getting the requirements
+
+1. Download and install **NodeJS**
+
+   Download and install NodeJS from [here](https://nodejs.org/en/download/ "Go to official NodeJS download page.").
+
+1. Install **truffle** and **ganache-cli** using node packager manager (npm)
+
+   ```shell
+   npm install -g truffle
+   npm install -g ganache-cli
+   ```
+
+1. Install **metamask** browser extension
+
+   Download and install metamask from [here](https://metamask.io/download "Go to official metamask download page.").
+
+### Configuring the project for development
+
+1. Clone this repository
+
+   ```shell
+   git clone https://github.com/arlbibek/dVoting.git
+   cd dVoting
+   ```
+
+2. Run local Ethereum blockchain
+
+   ```shell
+   ganache-cli
+   ```
+
+   > Note: Do not close `ganache-cli` (the blockchain network needs to be running all the time)
+
+3. Configure metamask on the browser with the following details
+
+   New RPC URL: `http://127.0.0.1:8545` *(use `port: 7545` for **ganache gui**, update it in the file:`truffle-config.js` as well)*
+
+   Chain ID: `1337`
+
+4. Import account(s) using private keys from ganache-cli to the metamask extension on the browser
+
+5. Deploy smart contract to the (local) blockchain network (i.e ganache-cli)
+
+   ```shell
+   # on the dVoting directory
+   truffle migrate
+   ```
+
+   > Note: Use `truffle migrate --reset` for re-deployments
+
+6. Launch the development server (frontend)
+
+   ```shell
+   cd client
+   npm install
+   npm start
+   ```
+
+   > If you encounter **error** during `npm install`, please note that you might need to install Microsoft Visual C++ Redistributable packages from [learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (here is the direct download link for X64: [aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe))
+
 ## Conclusion
 By incorporating these features, a decentralized secure voting system can revolutionize elections, addressing concerns related to security, transparency, and fraud. The use of blockchain technology and cryptographic techniques ensures a robust and trustworthy platform that upholds the principles of democracy while embracing innovation.
