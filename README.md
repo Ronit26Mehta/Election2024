@@ -54,7 +54,8 @@ Empower independent parties, such as election observers or auditing agencies, to
       to do so as such. At his dashboard he can perform operations to end it then he would be provided with a msg regarding the election has ended.
       ![WhatsApp Image 2024-03-10 at 07 18 43_d10568d9](https://github.com/jinit07/Election2024/assets/109467924/9c31d753-7fc5-4808-9e45-941a585501f1)
       after ensuring the msg has reached to the admin then he can ensure to have a glimpse of result by using the access to it which will provide him the name of winner:
-      ![WhatsApp Image 2024-03-10 at 07 18 43_d10568d9](https://github.com/jinit07/Election2024/assets/109467924/9d41cc2b-5c97-4449-9688-de43e503baef)
+      ![WhatsApp Image 2024-03-10 at 07 19 25_b1945806](https://github.com/jinit07/Election2024/assets/109467924/cbef33ca-0868-4665-b96c-3333845ba881)
+
       
 
 
