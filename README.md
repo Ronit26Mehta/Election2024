@@ -49,7 +49,16 @@ Empower independent parties, such as election observers or auditing agencies, to
      the above image shows amount of request of voters which has come to him in order to vote are approved by admin by looking at each profile.
      this approval ensure only legit users to vote. the panel which can differentiate between legit and illegitmate users are as follows:
      ![WhatsApp Image 2024-03-10 at 07 15 19_0b26ed1e](https://github.com/jinit07/Election2024/assets/109467924/7a9e408e-8e4e-4806-8a07-632d27bde4a0)
-![WhatsApp Image 2024-03-10 at 07 15 19_aab7ce94](https://github.com/jinit07/Election2024/assets/109467924/5042f041-88be-42fa-8ba8-059ee12b5a3e)
+5. As seen the admin can end a particular election when he needs doing it ensure verfication of each vote and stored in the blockchain and a protected election from each tampering one in
+      ballot system as such.this ensures every election to be started smoothly and end with all process being safe and secure. when the admin needs the end of a election he would have the power
+      to do so as such. At his dashboard he can perform operations to end it then he would be provided with a msg regarding the election has ended.
+      ![WhatsApp Image 2024-03-10 at 07 18 43_d10568d9](https://github.com/jinit07/Election2024/assets/109467924/9c31d753-7fc5-4808-9e45-941a585501f1)
+      after ensuring the msg has reached to the admin then he can ensure to have a glimpse of result by using the access to it which will provide him the name of winner:
+      ![WhatsApp Image 2024-03-10 at 07 18 43_d10568d9](https://github.com/jinit07/Election2024/assets/109467924/9d41cc2b-5c97-4449-9688-de43e503baef)
+      
+
+
+
 
 ## Conclusion
 
