@@ -76,7 +76,8 @@ Empower independent parties, such as election observers or auditing agencies, to
    ![IMG-20240310-WA0014](https://github.com/jinit07/Election2024/assets/109467924/fea1a80f-aa26-4282-9242-03df0da72346)
 3. Once the user has cast his vote the button would disabled by itself as such and after that he would be given a pop up to see the results as soon as the results are
   declared as such and this would ensure him to get the notification whenever the result are declared and provided to him at earliest.
-![WhatsApp Image 2024-03-10 at 07 16 37_37fbbb04](https://github.com/jinit07/Election2024/assets/109467924/d127af30-b9e5-4f81-aca6-74339ceafdd2)
+![IMG-20240310-WA0014](https://github.com/jinit07/Election2024/assets/109467924/0c70b7f5-5ff2-4adb-a52e-3b0c5396312a)
+
 ## Setting up the development environment
 
 ### Requirements
