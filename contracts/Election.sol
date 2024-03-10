@@ -1,26 +1,33 @@
+// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.21 <0.9.0;
+
 contract Election {
     address public admin;
     uint256 candidateCount;
     uint256 voterCount;
     bool start;
     bool end;
-    constructor() public {   
+
+    constructor() public {
+        // Initilizing default values
         admin = msg.sender;
         candidateCount = 0;
         voterCount = 0;
         start = false;
         end = false;
     }
+
     function getAdmin() public view returns (address) {
-      
+        // Returns account address used to deploy contract (i.e. admin)
         return admin;
     }
+
     modifier onlyAdmin() {
-       
+        // Modifier for only admin access
         require(msg.sender == admin);
         _;
     }
+    // Modeling a candidate
     struct Candidate {
         uint256 candidateId;
         string header;
@@ -28,9 +35,11 @@ contract Election {
         uint256 voteCount;
     }
     mapping(uint256 => Candidate) public candidateDetails;
+
+    // Adding new candidates
     function addCandidate(string memory _header, string memory _slogan)
         public
-       
+        // Only admin can add
         onlyAdmin
     {
         Candidate memory newCandidate =
@@ -43,6 +52,8 @@ contract Election {
         candidateDetails[candidateCount] = newCandidate;
         candidateCount += 1;
     }
+
+    // Modeling a Election Details
     struct ElectionDetails {
         string adminName;
         string adminEmail;
@@ -51,6 +62,7 @@ contract Election {
         string organizationTitle;
     }
     ElectionDetails electionDetails;
+
     function setElectionDetails(
         string memory _adminName,
         string memory _adminEmail,
@@ -59,7 +71,7 @@ contract Election {
         string memory _organizationTitle
     )
         public
-   
+        // Only admin can add
         onlyAdmin
     {
         electionDetails = ElectionDetails(
@@ -72,6 +84,8 @@ contract Election {
         start = true;
         end = false;
     }
+
+    // Get Elections details
     function getElectionDetails()
     public
     view
@@ -86,13 +100,20 @@ contract Election {
         electionDetails.electionTitle, 
         electionDetails.organizationTitle);
     }
+
+    // Get candidates count
     function getTotalCandidate() public view returns (uint256) {
+        // Returns total number of candidates
         return candidateCount;
     }
+
+    // Get voters count
     function getTotalVoter() public view returns (uint256) {
-        
+        // Returns total number of voters
         return voterCount;
     }
+
+    // Modeling a voter
     struct Voter {
         address voterAddress;
         string name;
@@ -101,8 +122,10 @@ contract Election {
         bool hasVoted;
         bool isRegistered;
     }
-    address[] public voters; 
+    address[] public voters; // Array of address to store address of voters
     mapping(address => Voter) public voterDetails;
+
+    // Request to be added as voter
     function registerAsVoter(string memory _name, string memory _phone) public {
         Voter memory newVoter =
             Voter({
@@ -117,12 +140,17 @@ contract Election {
         voters.push(msg.sender);
         voterCount += 1;
     }
+
+    // Verify voter
     function verifyVoter(bool _verifedStatus, address voterAddress)
         public
+        // Only admin can verify
         onlyAdmin
     {
         voterDetails[voterAddress].isVerified = _verifedStatus;
     }
+
+    // Vote
     function vote(uint256 candidateId) public {
         require(voterDetails[msg.sender].hasVoted == false);
         require(voterDetails[msg.sender].isVerified == true);
@@ -131,13 +159,18 @@ contract Election {
         candidateDetails[candidateId].voteCount += 1;
         voterDetails[msg.sender].hasVoted = true;
     }
+
+    // End election
     function endElection() public onlyAdmin {
         end = true;
         start = false;
     }
+
+    // Get election start and end values
     function getStart() public view returns (bool) {
         return start;
     }
+
     function getEnd() public view returns (bool) {
         return end;
     }
