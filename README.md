@@ -43,18 +43,18 @@ Empower independent parties, such as election observers or auditing agencies, to
 4.Approval of each voter is important this is ensure by admin by checking each details as such and verifying whether the user is legit or not. if he is legit then  he would be allowed to vote 
      or else he wont be given permission to do so . 
      an example of  type  of user who wouldnt be eligble for voting is given below:
-     ![WhatsApp Image 2024-03-10 at 07 09 39_6b0851dc](https://github.com/jinit07/Election2024/assets/109467924/926ae86c-fb98-4d46-a0d8-b9f00c48e8c1)
+     ![WhatsApp Image 2024-03-10 at 07 09 39_15cec6b2](https://github.com/jinit07/Election2024/assets/109467924/5f6e6b05-8ea0-4008-8ba3-c790efd4868d)
      the interface would have each  request at its sight and when the request is approved which would be done by admin  this would ensure the  independent verification of each user.
-     ![WhatsApp Image 2024-03-10 at 07 14 41_f852628f](https://github.com/jinit07/Election2024/assets/109467924/d0d093ed-19a8-439a-ad3e-845d178095a4)
+     ![IMG-20240310-WA0011](https://github.com/jinit07/Election2024/assets/109467924/21815022-e88c-44f4-90d5-8456098b3504)
      the above image shows amount of request of voters which has come to him in order to vote are approved by admin by looking at each profile.
      this approval ensure only legit users to vote.
     
 5. As seen the admin can end a particular election when he needs doing it ensure verfication of each vote and stored in the blockchain and a protected election from each tampering one in
       ballot system as such.this ensures every election to be started smoothly and end with all process being safe and secure. when the admin needs the end of a election he would have the power
       to do so as such. At his dashboard he can perform operations to end it then he would be provided with a msg regarding the election has ended.
-      ![WhatsApp Image 2024-03-10 at 07 18 43_d10568d9](https://github.com/jinit07/Election2024/assets/109467924/9c31d753-7fc5-4808-9e45-941a585501f1)
+      ![IMG-20240310-WA0016](https://github.com/jinit07/Election2024/assets/109467924/b9ec8832-6399-4f74-b23e-9bd1b4e84626)
       after ensuring the msg has reached to the admin then he can ensure to have a glimpse of result by using the access to it which will provide him the name of winner:
-      ![WhatsApp Image 2024-03-10 at 07 19 25_b1945806](https://github.com/jinit07/Election2024/assets/109467924/cbef33ca-0868-4665-b96c-3333845ba881)
+      ![IMG-20240310-WA0017](https://github.com/jinit07/Election2024/assets/109467924/d8145f18-1c61-4be2-80d5-17dde2048d23)
 ### User Operations:
 1. The general user would have a lesser number of operations available in compare to admin. A general user would be able to login into his account and then cast his vote.
     he would be provided the option to cast vote and get access to the result pane as such whenever it will be declared . this login access can be done for the user portal through
