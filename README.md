@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-03-10 at 07 15 19_aab7ce94](https://github.com/jinit07/Election2024/assets/109467924/5042f041-88be-42fa-8ba8-059ee12b5a3e)# Decentralized Secure Voting System
+# Decentralized Secure Voting System
 
 Traditional voting systems face challenges related to security, transparency, and potential fraud. A blockchain-based voting system can address these issues by providing a secure, transparent, and auditable platform for elections. This solution leverages distributed ledger technology, cryptographic techniques, and user-friendly interfaces to facilitate the entire voting process while ensuring voter privacy and anonymity.
 
