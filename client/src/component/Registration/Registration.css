@@ -1,0 +1,32 @@
+.form-row {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.label-r {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.input-r {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px; /* Adjust as needed */
+}
+
+.btn-add {
+  width: 80%;
+  padding: 1em;
+  margin: 1em;
+}
+
+.note {
+  width: 100%;
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 150px;
+  overflow: auto;
+  line-height: 1.5em;
+}
+

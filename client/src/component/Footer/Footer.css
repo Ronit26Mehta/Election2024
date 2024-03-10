@@ -1,0 +1,51 @@
+.footer,
+.footer-block {
+  padding: 15px;
+  height: 60px;
+  width: 100%;
+  overflow: hidden; /* Keep overflow hidden to ensure the smoothness of scrolling text */
+}
+
+.footer {
+  background: linear-gradient(to right, #FFA500, #FFF, #008000);
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Ensure full width */
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Necessary for scrolling text */
+}
+
+a.profile {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a.profile:hover {
+  background: linear-gradient(to right, #FF6347, #FFA07A);
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/* Adjusted CSS for scrolling text with smoother transition and larger font size */
+@keyframes scroll {
+  from { transform: translateX(350%); }
+  to { transform: translateX(-350%); }
+}
+
+.scrolling-text {
+  white-space: nowrap; /* Keep the text in one line */
+  animation: scroll 20.5s linear infinite; /* Increased duration for a smoother transition */
+  font-size: 28px; /* Increase the size of the text */
+}
