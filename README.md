@@ -62,18 +62,18 @@ Empower independent parties, such as election observers or auditing agencies, to
    Incase of scenario of general user as such he would be given  three major section when he logged into the portal as such.
    this would include  a  part of section for register , entering vote and the result section.
    the part of regsitration is given to the user below here:
-   ![WhatsApp Image 2024-03-10 at 07 11 15_c22fec8a](https://github.com/jinit07/Election2024/assets/109467924/b03edd73-3f67-475f-8845-b393bdbadf28)
+  ![IMG-20240310-WA0007](https://github.com/jinit07/Election2024/assets/109467924/609a0dc9-34e2-47d7-a023-1ca8f90cda4b)
    this details would play a vital role as such beacause the admin  have to approve each voter before enterring the vote for the  to ensure the verification as such.
    here the portal of the admin can give us glimpse a differentiation between legitimate and illigitamate users as such:
-    ![WhatsApp Image 2024-03-10 at 07 15 19_0b26ed1e](https://github.com/jinit07/Election2024/assets/109467924/7a9e408e-8e4e-4806-8a07-632d27bde4a0)
+   ![IMG-20240310-WA0012](https://github.com/jinit07/Election2024/assets/109467924/ba20f2a8-5fc2-4fdc-ba25-9acbdd663388)
    this would bring  us with tamper proof voting and ensuring the election to work and move soundly as such.
 2. After once a user gets approved by the admin for voting he can then cast his vote for the candidates who are standing in the elections as such. this cast of votes will only be unlocked
    when the verification process is completed by admin and then a user can enter his votes. he would be given a list from which to vote as such. this voting would ensuring  transparency and
    public access as such and which will help to store each vote respone with being manipulated.
    the ui which a voter would see  on the screen when  he is in voting boot section and if he is not verified the buttons would be disabled:
-   ![WhatsApp Image 2024-03-10 at 07 13 35_6c954e58](https://github.com/jinit07/Election2024/assets/109467924/b7819f5c-0566-4af4-98ef-164cd95c010b)
+   ![IMG-20240310-WA0010](https://github.com/jinit07/Election2024/assets/109467924/2ee54cfc-680c-4687-bc5a-d8ab39847cd3)
    the ui a voter would see on the screen when he is in voting boot section and if he is verified the button would be enabled:
-   ![WhatsApp Image 2024-03-10 at 07 16 11_4d00eac0](https://github.com/jinit07/Election2024/assets/109467924/229ee8ae-84c4-4b90-8af2-02725be2f812)
+   ![IMG-20240310-WA0014](https://github.com/jinit07/Election2024/assets/109467924/fea1a80f-aa26-4282-9242-03df0da72346)
 3. Once the user has cast his vote the button would disabled by itself as such and after that he would be given a pop up to see the results as soon as the results are
   declared as such and this would ensure him to get the notification whenever the result are declared and provided to him at earliest.
 ![WhatsApp Image 2024-03-10 at 07 16 37_37fbbb04](https://github.com/jinit07/Election2024/assets/109467924/d127af30-b9e5-4f81-aca6-74339ceafdd2)
